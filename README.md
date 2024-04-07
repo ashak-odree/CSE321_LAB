@@ -47,6 +47,13 @@ gedit newfile.c
 gcc -o compiledfile newfile.c
 ```
 
+
+
+## To compile the file for pthread
+```bash
+gcc -o compiledfile newfile.c -lpthread
+```
+
 ## TO run the file
 ```bash
 ./compiledile
