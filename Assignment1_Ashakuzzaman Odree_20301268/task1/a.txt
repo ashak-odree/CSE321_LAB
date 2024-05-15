@@ -1,0 +1,38 @@
+cd Desktop
+
+cd lab1
+
+cd task1
+
+touch 20301268_1.txt 20301268_2.txt 20301268_3.txt 20301268_4.txt
+
+mkdir odree1 odree2
+
+mv 20301268_1.txt 20301268_2.txt 20301268_3.txt odree1
+
+cd odree1
+
+cp 20301268_1.txt 20301268_2.txt ~/Desktop/lab1/task1/odree2
+
+cd ..
+
+mkdir odree3
+
+cp -r odree1 odree3
+
+cd odree3
+
+ls -l
+
+chmod -R a=rx *
+
+ls -l
+
+cd ..
+
+ls -l
+
+sudo mv odree3 /
+
+rm -r *
+

@@ -1,0 +1,13 @@
+cat> course.txt
+
+CSE321 sec:08
+
+CSE360 sec:05
+
+PSY101 sec:05
+
+HUM101 sec:02
+
+CTRL+D
+
+grep -c "CSE" course.txt
